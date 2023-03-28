@@ -40,7 +40,7 @@ class MainSection extends React.Component {
                   <h4 className={classes.cardSubtitle}>2000 Maribor</h4><br></br>
                   <h4 className={classes.cardSubtitle}><PhoneIphone style={{ position: "relative", top: "5px", }} /> 040 611 810</h4>
                   <h4 className={classes.cardSubtitle}><Email style={{ position: "relative", top: "5px", }} /> melita.lacen@mupra.si</h4>
-                  <h4 className={classes.cardSubtitle}><LocationCity style={{ position: "relative", top: "5px", }} /> Lackova cesta 78a, Maribor</h4>
+                  <h4 className={classes.cardSubtitle}><LocationCity style={{ position: "relative", top: "5px", }} /> Lackova cesta 41, Maribor</h4>
                   <br />
                   <h4 className={classes.cardSubtitle}><small>ID za DDV:</small> SI86230905</h4>
                   <h4 className={classes.cardSubtitle}><small>Matična številka:</small> 6412807</h4>
@@ -63,7 +63,7 @@ class MainSection extends React.Component {
                           <h3 className={classes.cardTitle}>Vodja Projektov</h3>
                           <h4 className={classes.cardSubtitle}><PhoneIphone style={{ position: "relative", top: "5px", }} /> 040 639 682</h4>
                           <h4 className={classes.cardSubtitle}><Email style={{ position: "relative", top: "5px", }} /> mupra@mupra.si</h4>
-                          <h4 className={classes.cardSubtitle}><LocationCity style={{ position: "relative", top: "5px", }} /> Lackova cesta 78a, Maribor</h4>
+                          <h4 className={classes.cardSubtitle}><LocationCity style={{ position: "relative", top: "5px", }} /> Lackova cesta 41, Maribor</h4>
                           
                         </CardBody>
                       </Card>
@@ -78,7 +78,7 @@ class MainSection extends React.Component {
                           <h3 className={classes.cardTitle}>Pomočnik Vodje Projektov</h3>
                           <h4 className={classes.cardSubtitle}><PhoneIphone style={{ position: "relative", top: "5px", }} /> 040 639 682</h4>
                           <h4 className={classes.cardSubtitle}><Email style={{ position: "relative", top: "5px", }} /> mupra@mupra.si</h4>
-                          <h4 className={classes.cardSubtitle}><LocationCity style={{ position: "relative", top: "5px", }} /> Lackova cesta 78a, Maribor</h4>
+                          <h4 className={classes.cardSubtitle}><LocationCity style={{ position: "relative", top: "5px", }} /> Lackova cesta 41, Maribor</h4>
                           
                         </CardBody>
                       </Card>
@@ -93,7 +93,7 @@ class MainSection extends React.Component {
                           <h3 className={classes.cardTitle}>Računalništvo</h3>
                           <h4 className={classes.cardSubtitle}><PhoneIphone style={{ position: "relative", top: "5px", }} /> 040 876 032</h4>
                           <h4 className={classes.cardSubtitle}><Email style={{ position: "relative", top: "5px", }} /> dusan.lacen@mupra.si</h4>
-                          <h4 className={classes.cardSubtitle}><LocationCity style={{ position: "relative", top: "5px", }} /> Lackova cesta 78a, Maribor</h4>
+                          <h4 className={classes.cardSubtitle}><LocationCity style={{ position: "relative", top: "5px", }} /> Lackova cesta 41, Maribor</h4>
                           
                         </CardBody>
                       </Card>

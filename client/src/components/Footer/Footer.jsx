@@ -26,14 +26,8 @@ function Footer({ ...props }) {
       <div className={classes.container}>
         
         <div className={classes.center}>
-          &copy; {1900 + new Date().getYear()} , made by{" "}
-          <a
-            href="http://darkolacen.com"
-            className={aClasses}
-            target="_blank"
-          >
-            Darko Lacen
-          </a>{" "}
+          {1900 + new Date().getYear()}
+         
           
         </div>
       </div>

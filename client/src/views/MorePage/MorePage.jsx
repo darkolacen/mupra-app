@@ -15,6 +15,7 @@ import morePageStyle from "assets/jss/material-kit-react/views/morePage.jsx";
 //Sections
 import EngineeringSection from "./Sections/EngineeringSection.jsx";
 import ComputerSection from "./Sections/ComputerSection.jsx";
+import image from "assets/img/house-concept.jpg"
 
 const dashboardRoutes = [];
 
@@ -41,7 +42,7 @@ class morePage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/house-concept.jpg")}>
+        <Parallax filter image={image}>
           <div className={classes.container}>
           </div>
         </Parallax>
@@ -51,7 +52,7 @@ class morePage extends React.Component {
             {page.includes('racunalnistvo') && <ComputerSection></ComputerSection>}
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

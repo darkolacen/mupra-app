@@ -24,6 +24,7 @@ import AboutUsSection from "./Sections/AboutUsSection.jsx";
 import ContactSection from "./Sections/ContactSection.jsx";
 import MessageSection from "./Sections/MessageSection.jsx";
 import QuoteSection from "./Sections/QuoteSection.jsx";
+import image from "assets/img/house-concept.jpg";
 
 const dashboardRoutes = [];
 
@@ -44,7 +45,7 @@ class LandingPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/house-concept.jpg")}>
+        <Parallax filter image={image}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
@@ -65,10 +66,10 @@ class LandingPage extends React.Component {
             {/* <Divider variant="middle" />
             <QuoteSection />
             <Divider variant="middle" /> */}
-            <MessageSection />
+            {/* <MessageSection /> */}
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

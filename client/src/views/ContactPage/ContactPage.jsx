@@ -18,6 +18,7 @@ import Parallax from "components/Parallax/Parallax.jsx";
 
 //Style
 import contactPageStyle from "assets/jss/material-kit-react/views/contactPage.jsx";
+import image from "assets/img/house-concept.jpg"
 
 // Sections for this page
 import MainSection from "./Sections/MainSection.jsx";
@@ -41,7 +42,7 @@ class ContactPage extends React.Component {
           }}
           {...rest}
         />
-        <Parallax filter image={require("assets/img/house-concept.jpg")}>
+        <Parallax filter image={image}>
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
@@ -60,7 +61,7 @@ class ContactPage extends React.Component {
             <MainSection></MainSection>
           </div>
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

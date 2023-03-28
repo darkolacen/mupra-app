@@ -41,16 +41,6 @@ function HeaderLinks({ ...props }) {
         </Link>
       </ListItem>
       
-      <ListItem className={classes.listItem}>
-        <Link
-          to="/login-page"
-          className={classes.navLink}
-        >
-        <Lock style={{position:"relative", top:"-3px", paddingRight:"3px", width:"22px"}} /> Prijava
-          
-        </Link>
-      </ListItem>
-      
       
       
     </List>

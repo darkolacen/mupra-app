@@ -17,7 +17,7 @@ import Card from "components/Card/Card.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 //Style
 import contactStyle from "assets/jss/material-kit-react/views/landingPageSections/contactStyle.jsx";
-
+import ImageNew from 'assets/img/aaa_en.png'
 
 class ContactSection extends React.Component {
   render() {
@@ -39,7 +39,7 @@ class ContactSection extends React.Component {
                   <h4 className={classes.cardSubtitle}>2000 Maribor</h4><br></br>
                   <h4 className={classes.cardSubtitle}><PhoneIphone style={{position: "relative",top: "5px",}}/> 040 611 810</h4>
                   <h4 className={classes.cardSubtitle}><Email style={{position: "relative",top: "5px",}}/> melita.lacen@mupra.si</h4>
-                  <h4 className={classes.cardSubtitle}><LocationCity style={{position: "relative",top: "5px",}}/> Lackova cesta 78a, Maribor</h4>
+                  <h4 className={classes.cardSubtitle}><LocationCity style={{position: "relative",top: "5px",}}/> Lackova cesta 41, Maribor</h4>
                   <br />
                   <div style={{ textAlign:"center" }}>
                     <Link to="/contact">
@@ -61,7 +61,7 @@ class ContactSection extends React.Component {
               </Card>
               <Card style={{ textAlign: 'center'}}>
                 <CardBody>
-                  <img style={{ width:"150px" }} src={require('assets/img/aaa_en.png')} />
+                  <img style={{ width:"150px" }} src={ImageNew} />
                 </CardBody>
               </Card>
             </GridItem>
