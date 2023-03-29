@@ -91,7 +91,7 @@ class MainSection extends React.Component {
                       <Card>
                         <CardBody>
                           <h3 className={classes.cardTitle}>Računalništvo</h3>
-                          <h4 className={classes.cardSubtitle}><PhoneIphone style={{ position: "relative", top: "5px", }} /> 040 876 032</h4>
+                          <h4 className={classes.cardSubtitle}><PhoneIphone style={{ position: "relative", top: "5px", }} /> 040 876 033</h4>
                           <h4 className={classes.cardSubtitle}><Email style={{ position: "relative", top: "5px", }} /> dusan.lacen@mupra.si</h4>
                           <h4 className={classes.cardSubtitle}><LocationCity style={{ position: "relative", top: "5px", }} /> Lackova cesta 41, Maribor</h4>
                           
