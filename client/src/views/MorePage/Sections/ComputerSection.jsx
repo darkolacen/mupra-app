@@ -14,6 +14,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import InfoArea from "components/InfoArea/InfoArea.jsx";
 
 import aboutUsStyle from "assets/jss/material-kit-react/views/landingPageSections/aboutUsStyle.jsx";
+import data from "assets/data";
 
 const styles = theme => ({
     root: {
@@ -36,9 +37,7 @@ class ComputerSection extends React.Component {
 
     componentDidMount() {
 
-        fetch('http://api.mupra.si/api/articles')
-            .then(response => response.json())
-            .then(content => this.setState({ articles: content.data.filter(el => el.category.includes('racunalnistvo')) }));
+        this.setState({ articles: data.data.filter(el => el.category.includes('racunalnistvo')) })
     }
     render() {
         const { classes } = this.props;
