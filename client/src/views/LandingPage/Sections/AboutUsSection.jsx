@@ -44,9 +44,9 @@ class AboutUsSection extends React.Component {
                 iconColor="info"
                 
               />
-              {/* <Link to="/more-page/inziniring">
+              <Link to="/more-page/inziniring">
                 <Button size="sm" color="primary" ><ExpandMore style={{color: "#FFFFFF"}}/> Več</Button>
-              </Link> */}
+              </Link>
             </GridItem>
             <GridItem xs={12} sm={12} md={6}
               container
@@ -62,9 +62,9 @@ class AboutUsSection extends React.Component {
                 iconColor="primary"
                 
               />
-              {/* <Link to="/more-page/racunalnistvo">
+              <Link to="/more-page/racunalnistvo">
                 <Button size="sm" color="primary" ><ExpandMore style={{color: "#FFFFFF"}}/> Več</Button>
-              </Link> */}
+              </Link>
             </GridItem>
 
           </GridContainer>
