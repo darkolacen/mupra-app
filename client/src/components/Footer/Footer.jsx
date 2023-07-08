@@ -26,7 +26,6 @@ function Footer({ ...props }) {
       <div className={classes.container}>
         
         <div className={classes.center}>
-          {1900 + new Date().getYear()}
          
           
         </div>

@@ -10,7 +10,7 @@ import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
 // @material-ui/icons
-import { Home, Lock, Call } from "@material-ui/icons";
+import { Home, Lock, Call, Person } from "@material-ui/icons";
 
 // core components
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
@@ -37,6 +37,15 @@ function HeaderLinks({ ...props }) {
           className={classes.navLink}
         >
         <Call style={{position:"relative", top:"-3px", paddingRight:"3px"}} /> Kontakt
+          
+        </Link>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Link
+          to="/employment"
+          className={classes.navLink}
+        >
+        <Person style={{position:"relative", top:"-3px", paddingRight:"3px"}} /> Zaposlitev
           
         </Link>
       </ListItem>
