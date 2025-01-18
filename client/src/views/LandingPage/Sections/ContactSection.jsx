@@ -56,7 +56,7 @@ class ContactSection extends React.Component {
                   <h4 className={classes.cardSubtitle}><small>ID za DDV:</small> SI86230905</h4>
                   <h4 className={classes.cardSubtitle}><small>Matična številka:</small> 6412807</h4>
                   <h4 className={classes.cardSubtitle}><small>TRR:</small> SI56 0510 0801 3699 496</h4>
-                  <h4 className={classes.cardSubtitle}><small>Odprt pri:</small> ABANKA VIPA d.d.</h4>
+                  <h4 className={classes.cardSubtitle}><small>Odprt pri:</small> OTP</h4>
                 </CardBody>
               </Card>
               <Card style={{ textAlign: 'center'}}>
