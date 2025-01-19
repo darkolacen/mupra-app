@@ -55,6 +55,21 @@ class MainSection extends React.Component {
                 headerColor="success"
                 tabs={[
                   {
+                    tabName: "Melita Lačen",
+                    tabIcon: Face,
+                    tabContent: (
+                      <Card>
+                        <CardBody>
+                          <h3 className={classes.cardTitle}>Direktor</h3>
+                          <h4 className={classes.cardSubtitle}><PhoneIphone style={{ position: "relative", top: "5px", }} /> 040/639-682</h4>
+                          <h4 className={classes.cardSubtitle}><Email style={{ position: "relative", top: "5px", }} /> mupra@mupra.si</h4>
+                          <h4 className={classes.cardSubtitle}><LocationCity style={{ position: "relative", top: "5px", }} /> Lackova cesta 41, Maribor</h4>
+                          
+                        </CardBody>
+                      </Card>
+                    )
+                  },
+                  {
                     tabName: "Jelka Vodnik",
                     tabIcon: Face,
                     tabContent: (
