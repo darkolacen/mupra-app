@@ -17,7 +17,7 @@ import Card from "components/Card/Card.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 //Style
 import contactStyle from "assets/jss/material-kit-react/views/landingPageSections/contactStyle.jsx";
-import ImageNew from 'assets/img/aaa_en.png'
+import ImageNew from 'assets/img/aaa_2024.png'
 
 class ContactSection extends React.Component {
   render() {
@@ -37,8 +37,8 @@ class ContactSection extends React.Component {
                   <h3 className={classes.cardTitle}>MUPRA d.o.o.</h3>
                   <h4 className={classes.cardSubtitle}>Lackova cesta 95a</h4>
                   <h4 className={classes.cardSubtitle}>2000 Maribor</h4><br></br>
-                  <h4 className={classes.cardSubtitle}><PhoneIphone style={{position: "relative",top: "5px",}}/> 040 611 810</h4>
-                  <h4 className={classes.cardSubtitle}><Email style={{position: "relative",top: "5px",}}/> melita.lacen@mupra.si</h4>
+                  <h4 className={classes.cardSubtitle}><PhoneIphone style={{position: "relative",top: "5px",}}/> 040/639-682</h4>
+                  <h4 className={classes.cardSubtitle}><Email style={{position: "relative",top: "5px",}}/> info@mupra.si</h4>
                   <h4 className={classes.cardSubtitle}><LocationCity style={{position: "relative",top: "5px",}}/> Lackova cesta 41, Maribor</h4>
                   <br />
                   <div style={{ textAlign:"center" }}>
@@ -55,8 +55,8 @@ class ContactSection extends React.Component {
                 <CardBody>
                   <h4 className={classes.cardSubtitle}><small>ID za DDV:</small> SI86230905</h4>
                   <h4 className={classes.cardSubtitle}><small>Matična številka:</small> 6412807</h4>
-                  <h4 className={classes.cardSubtitle}><small>TRR:</small> SI56 0510 0801 3699 496</h4>
-                  <h4 className={classes.cardSubtitle}><small>Odprt pri:</small> OTP</h4>
+                  <h4 className={classes.cardSubtitle}><small>TRR:</small> SI56 0400 1004 9054 538</h4>
+                  <h4 className={classes.cardSubtitle}><small>Odprt pri:</small> OTP Bank</h4>
                 </CardBody>
               </Card>
               <Card style={{ textAlign: 'center'}}>
